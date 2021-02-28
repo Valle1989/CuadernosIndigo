@@ -9,5 +9,7 @@
   <description>Proyecto padre del proyecto Cuadernos Indigo</description>
   <modules>
     <module>entidades</module>
+    <module>Dao</module>
+    <module>cuadernoDao</module>
   </modules>
 </project>
