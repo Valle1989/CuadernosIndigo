@@ -8,7 +8,7 @@ import ar.com.CuadernosIndigo.exceptions.GenericException;
 
 public interface CuadernoDao {
 	
-public Cuaderno insertar(Cuaderno cuaderno) throws DuplicatedException, GenericException;
+	public Cuaderno insertar(Cuaderno cuaderno) throws DuplicatedException, GenericException;
 	
 	public Cuaderno actualizar(Cuaderno cuaderno) throws GenericException;
 	

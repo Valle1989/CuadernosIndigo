@@ -11,5 +11,6 @@
     <module>entidades</module>
     <module>Dao</module>
     <module>cuadernoDao</module>
+    <module>Servicios</module>
   </modules>
 </project>
