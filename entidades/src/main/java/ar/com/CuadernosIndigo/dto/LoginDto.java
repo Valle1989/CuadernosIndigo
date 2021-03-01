@@ -2,7 +2,9 @@ package ar.com.CuadernosIndigo.dto;
 
 public class LoginDto {
 	
-	 private String userName;
+		private int id;
+	
+	 	private String userName;
 		
 		private String password;
 
@@ -14,6 +16,15 @@ public class LoginDto {
 
 		public LoginDto() {
 			super();
+		}
+		
+
+		public int getId() {
+			return id;
+		}
+
+		public void setId(int id) {
+			this.id = id;
 		}
 
 		public String getUserName() {
